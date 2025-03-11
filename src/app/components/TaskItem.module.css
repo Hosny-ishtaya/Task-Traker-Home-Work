@@ -1,0 +1,35 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+  }
+  
+  .task-item h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .task-item img {
+    width: 24px;
+    height: 24px;
+
+  }
+  
+  .task-item a {
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .task-item a:hover {
+    color: #0056b3;
+  }
