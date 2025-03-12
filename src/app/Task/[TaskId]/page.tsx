@@ -20,7 +20,7 @@ const TaskDetails = () => {
           `https://jsonplaceholder.typicode.com/todos/${TaskId}`
         );
         if (!res.ok) {
-            router.push("./NotFoundPage")
+            router.push("/NotFoundPage")
             throw new Error("Failed to fetch task");
             
         }
